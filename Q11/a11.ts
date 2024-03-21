@@ -1,0 +1,1 @@
+export const friends:string[]=['Falak Naz', 'Sana Khan', 'Mehak Chohan', 'Sahar Ghori', 'Haya Hayat'];
