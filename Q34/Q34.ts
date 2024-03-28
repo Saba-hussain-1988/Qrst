@@ -9,4 +9,21 @@ I like pepperoni pizza.
  sentence, such as I really love pizza!  */
 
 
- 
+ //create and initialize a pizza array
+
+let  favorite_pizza:string[] = ['Pepperoni', 'Margherita', 'Supreme'];
+
+//printing pizza names through for loop
+console.log('Print favorite pizza names:');
+for (let i = 0; i <favorite_pizza.length; i++) {
+    console.log(favorite_pizza[i]);
+}
+
+// Modify your for loop to print a sentence using the name of the pizza instead of printing just the name 
+console.log ('Print favorite pizza names with statement.');
+for (let i = 0; i<favorite_pizza.length; i++) {
+    console.log(`I like ${favorite_pizza[i]} pizza.`);
+}
+
+// Add a line at the end of your program, outside the for loop,
+console.log('I really love pizza.');

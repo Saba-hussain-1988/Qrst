@@ -5,7 +5,7 @@ Then compose your message and store it in a new variable called message. Print y
 let famous_person:string = "Albert Einstein";
 
 //save message in a variable
-let message:string = famous_person + ' once said, "A Person who made a mistake never tried anything new."' ;
+let messaGe:string = famous_person + ' once said, "A Person who made a mistake never tried anything new."' ;
 
 //print the message and person name
-console.log( message);
+console.log( messaGe);

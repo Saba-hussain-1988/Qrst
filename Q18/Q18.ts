@@ -29,7 +29,7 @@ console.log(`Still in Original order:\n ${placesToVisit}`);
 //• Reverse the order of your list.
 placesToVisit.reverse();
 // Print the array to show that its order has changed.
-console.log (`Its order has changed:\n ${placesToVisit}`);
+console.log (`Its order has changed into reverse:\n ${placesToVisit}`);
 
 
 

@@ -10,7 +10,6 @@ console.log(car == 'subaru')
 • Look closely at your results, and make sure you understand why each line evaluates to True or False.
 
 • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.*/
-Object.defineProperty(exports, "__esModule", { value: true });
 let x = 'Hello';
 let y = 10;
 let z = 8;
@@ -48,5 +47,5 @@ console.log(`Is b !== (a === 100n)? I predict false.`);
 console.log(b !== (a === 100n)); //false
 console.log(`Is (2 * 5) < y ? I predict false.`);
 console.log((2 * 5) < y);
-console.log(`Is z <= y? I predict false.`);
+console.log(`Is z <= y? I predict true`);
 console.log(z <= y);

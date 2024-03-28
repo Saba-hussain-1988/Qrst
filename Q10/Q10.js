@@ -7,15 +7,15 @@ and add at least one comment to each. If you don’t have anything specific to w
 */
 //programm 1
 //save person name in a variable
-let famous_person = "Albert Einstein";
+let famousPerson = "Albert Einstein";
 //save message in a variable
-let message = famous_person + ' once said, "A Person who made a mistake never tried anything new."';
+let msg = famousPerson + ' once said, "A Person who made a mistake never tried anything new."';
 //print the message and person name
-console.log(message);
+console.log(msg);
 //program 2
 //store favorite number in a variable,
-let myFavoritNumber = 7;
+let myFavorit_Number = 7;
 // message
-let message1 = `"My favorite number is: ${myFavoritNumber}"`;
+let message1 = `"My favorite number is: ${myFavorit_Number}"`;
 //print the message
 console.log(message1);
