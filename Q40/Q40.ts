@@ -12,11 +12,17 @@
 // add the number of tracks? if provided
 function make_album(artist:string, title:string, tracks?:number){
     //object of album
-    let album={
+    let album:{
+        artist: string,
+        title: string,
+        tracks?: number
+    } ={
         artist: artist,
         title: title,
-        tracks: tracks,
-    }; 
+    };
+    if (tracks) {
+        album.tracks = tracks;
+    }
     return album;
 }
 // Call the function to make three dictionaries representing different albums
